@@ -4,9 +4,28 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>资质证书查询</title>
+    <style>
+    /* 确保页面没有边距 */
+    body {
+      margin: 0;
+      padding: 0;
+      font-family: Arial, sans-serif;
+    }
+    
+
+    
+    /* 自适应图片的关键样式 */
+    .responsive-image {
+      max-width: 100%;  /* 图片最大宽度不超过容器 */
+      height: auto;     /* 高度自动按比例调整 */
+      display: block;   /* 移除图片底部的额外空间 */
+      margin: 0 auto;   /* 居中显示图片 */
+    }
+    
+  </style>
 
 </head>
 <body>
-    <img src="2.jpg" width="2" height="1">
+    <img class="responsive-image" src="2.jpg">
 </body>
 </html>
